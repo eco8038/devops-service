@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class AppController {
     @GetMapping("/")
     public String home() {
-        return "Hello, World";
+        return "Good Day!!!";
     }
     
 }
